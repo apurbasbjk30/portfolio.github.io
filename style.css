@@ -213,6 +213,15 @@ body {
     width: 15rem;
   }
 }
+
+@media only screen and (max-width:600px){
+  .box5 .details .h2{
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem
+    
+  }
+}
 .slider .illustration div::after, .slider .illustration div::before {
   content: "";
   position: absolute;
@@ -335,17 +344,19 @@ body {
 
 .social-connection {
   margin-top: 3vh;
-  display: flex;
+  display: inline-block;
   justify-content: bottom;
+  
 }
+
 
 .social-link {
   display: inline-block;
   width: 50%;
   height: 50%;
-  margin: 0 10px;
+  margin-right: 10px;
   color: #d2edfc; /* You can style the color of the icons here */
-  font-size: 30px; /* Adjust the size of the icons as needed */
+  font-size: 40px; /* Adjust the size of the icons as needed */
   transition: transform 0.3s ease;
 }
 
@@ -368,6 +379,16 @@ body {
   width: 20%x;
   height: 20%;
   margin: 20%;
+}
+@media only screen and  (max-width: 600px){
+  .social-connection .social-link {
+    margin:  auto;
+    align-items: flex-end;
+    display: inline-block;
+    
+
+
+  }
 }
 
 .experience{
